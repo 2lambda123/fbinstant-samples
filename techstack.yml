@@ -1,0 +1,370 @@
+repo_name: 2lambda123/fbinstant-samples
+report_id: 62507444cc15ad28f511b3e297a944ca
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:55:15+00:00'
+requested_by: ainsleyh
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/package.json
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/package.json
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/yarn.lock
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: crypto-js
+  description: JavaScript library of crypto standards
+  package_url: https://www.npmjs.com/crypto-js
+  version: 3.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16283/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+  vulnerabilities:
+  - name: crypto-js PBKDF2 1,000 times weaker than specified in 1993 and 1.3M times
+      weaker than current standard
+    cve_id: CVE-2023-46233
+    cve_url: https://github.com/advisories/GHSA-xwcq-pm8m-c4vf
+    detected_date: Oct 26
+    severity: critical
+    first_patched: 4.2.0
+  - name: crypto-js uses insecure random numbers
+    cve_id: CVE-2020-36732
+    cve_url: https://github.com/advisories/GHSA-3w3w-pxmm-2w2j
+    detected_date: Jun 14
+    severity: moderate
+    first_patched: 3.2.1
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: gulp-cli
+  description: Command line interface for gulp
+  package_url: https://www.npmjs.com/gulp-cli
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16957/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: gulp-rimraf
+  description: Rimraf plugin for gulp
+  package_url: https://www.npmjs.com/gulp-rimraf
+  version: 0.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16968/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: gulp-webserver
+  description: Gulp plugin to run a local webserver with LiveReload
+  package_url: https://www.npmjs.com/gulp-webserver
+  version: 0.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17173/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: gulp-zip
+  description: ZIP compress files
+  package_url: https://www.npmjs.com/gulp-zip
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16846/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 6.9.0
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+  vulnerabilities:
+  - name: npm Vulnerable to Global node_modules Binary Overwrite
+    cve_id: CVE-2019-16777
+    cve_url: https://github.com/advisories/GHSA-4328-8hgf-7wjr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.13.4
+  - name: Arbitrary File Write in npm
+    cve_id: CVE-2019-16775
+    cve_url: https://github.com/advisories/GHSA-m6cx-g6qm-p2cx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.13.3
+  - name: npm symlink reference outside of node_modules
+    cve_id: CVE-2019-16776
+    cve_url: https://github.com/advisories/GHSA-x8qc-rrcw-4r46
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.13.3
+  - name: npm CLI exposing sensitive information through logs
+    cve_id: CVE-2020-15095
+    cve_url: https://github.com/advisories/GHSA-93f3-23rq-pjfp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 6.14.6
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: James Saindon
+  last_updated_on: 2019-06-21 21:30:33.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.87.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-bot/yarn.lock
+  detection_source: package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: semistandard
+  description: All the goodness of `feross/standard` with semicolons sprinkled on
+    top
+  package_url: https://www.npmjs.com/semistandard
+  version: 12.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16588/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
+- name: sqlite3
+  description: Asynchronous, non-blocking SQLite3 bindings
+  package_url: https://www.npmjs.com/sqlite3
+  version: 4.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/2lambda123/fbinstant-samples/blob/main/server-examples/nodejs-backend/yarn.lock
+  detection_source: server-examples/nodejs-backend/package.json
+  last_updated_by: Ming Cao
+  last_updated_on: 2018-12-18 23:22:02.000000000 Z
